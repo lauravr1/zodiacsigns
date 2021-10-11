@@ -1,0 +1,51 @@
+.elements-container {
+    list-style-type: none;
+    background-color: lightgray;
+}
+
+@keyframes mymove {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 102.5px;
+    }
+}
+
+.cover-xxl-closing {
+    position: absolute;
+    width: 450px;
+    height: 102.5px;
+    background-color: lightgray;
+    top: 30x;
+    right: 40px;
+    display: inline-block;
+    animation: closing 1s;
+    animation-fill-mode: forwards;
+}
+
+.cover-xxl-opening {
+    position: absolute;
+    width: 450px;
+    height: 102.5px;
+    background-color: lightgray;
+    top: 30x;
+    right: 40px;
+    display: inline-block;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes closing {
+    from {
+        height: 102.5px;
+    }
+    to {
+        height: 0px;
+    }
+}
+
+.highlight {
+    z-index: 1 !important;
+    position: relative;
+}

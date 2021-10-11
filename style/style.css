@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(112, 110, 110);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+.box {
+    color: white;
+    background-color: lightgray;
+    overflow: auto;
+    width: 100%;
+    max-height: 150px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.allelements {
+    width: 100px;
+}
+
+.signs {
+    width: 300px;
+}
+
+.animation {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+}
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+.allzodiacs {
+    float: right;
+    width: 300px;
+}
+
+.contact-form {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    color: rgb(182, 182, 182);
+    float: right;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+a:hover {
+    color: pink;
+}
+
+a {
+    color: white;
+}
+
+.nav-link {
+    background-color: rgb(90, 90, 194);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
